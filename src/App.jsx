@@ -6,7 +6,6 @@ import QuestionAnswer from "./components/QuestionAnswer";
 import Login from "./components/Login"; // 🔴 Added
 
 function App() {
-  // AIzaSyAkkFZdY0Lm1ZN4G44tD2dMBVL1Ax-S5Ys
   const [question, setQuestion] = useState("");
   const [result, setResult] = useState([]);
   const [recentHistory, setRecentHistory] = useState(
